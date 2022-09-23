@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+body {
+  margin: 0;
+}
+.App {
+  font-family: Poppins;
+}
+.hero-container {
+  background-image: url("https://assets.codepen.io/6060109/agency-hero-image.png");
+  color: white;
+  height: 700px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-tabs {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  padding-top: 25px;
+  margin: 0;
+}
+.middle-tab {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.slogan {
+  padding-top: 300px;
+  font-size: 55px;
+}
+.service-title {
+  text-align: center;
+  color: #133588;
+  font-size: 25px;
+  padding-top: 40px;
+}
+.service-sections {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding-bottom: 60px;
+}
+.footer-section {
+  color: white;
+  background-color: #133588;
+  text-align: center;
+  height: 500px;
+}
+input {
+  border: none;
+  background: none;
+  border-bottom: 1px solid white;
+  text-align: center;
+}
+input[type="text"]::placeholder {
+  color: white;
+}
+button {
+  color: #806c6c;
+  width: 100px;
+  height: 35px;
+  margin-top: 50px;
+}
+.footer-title {
+  padding-top: 100px;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 400px) {
+  .service-sections {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-bottom: 60px;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .hero-container {
+    background-image: url("https://assets.codepen.io/6060109/agency-hero-image.png");
+    color: white;
+    height: 500px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .slogan {
+    padding-top: 150px;
+    font-size: 25px;
+  }
+}
